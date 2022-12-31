@@ -4,6 +4,7 @@ include("$(PORT_DIR)/boards/manifest.py")
 require("webrepl")
 require("urequests")
 require("ntptime")
+require("mip")
 
 # Drivers
 require("lsm6dsox")
