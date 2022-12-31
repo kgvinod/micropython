@@ -118,6 +118,7 @@
 #define MICROPY_VFS_FAT                         (1)
 #define MICROPY_SSL_MBEDTLS                     (1)
 #define MICROPY_PY_LWIP_SOCK_RAW                (MICROPY_PY_LWIP)
+
 #define MICROPY_PY_MICRODOT                     (1)
 
 // fatfs configuration
