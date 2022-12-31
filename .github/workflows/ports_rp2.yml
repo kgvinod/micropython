@@ -22,7 +22,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Support microdot
-      run: curl https://raw.githubusercontent.com/miguelgrinberg/microdot/main/src/microdot.py -o ports/rp2/modules
+      run:  curl https://raw.githubusercontent.com/miguelgrinberg/microdot/main/src/microdot.py -o ports/rp2/modules/microdot.py
     - name: Install packages
       run: source tools/ci.sh && ci_rp2_setup
     - name: Build
